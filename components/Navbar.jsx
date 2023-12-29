@@ -75,11 +75,11 @@ const Navbar = () => {
           <div className="py-2 flex flex-col">
             <ul className="uppercase">
               <Link href={"/"}>
-                <li className="py-4 text-sm">Home</li>
-                <li className="py-4 text-sm">About</li>
-                <li className="py-4 text-sm">Skills</li>
-                <li className="py-4 text-sm">Projects</li>
-                <li className="py-4 text-sm">Contact</li>
+                <li className="py-3 text-sm">Home</li>
+                <li className="py-3 text-sm">About</li>
+                <li className="py-3 text-sm">Skills</li>
+                <li className="py-3 text-sm">Projects</li>
+                <li className="py-3 text-sm">Contact</li>
               </Link>
             </ul>
             <div className="pt-[20%]">
