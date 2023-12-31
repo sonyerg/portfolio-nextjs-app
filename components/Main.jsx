@@ -6,10 +6,10 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 function Main() {
   return (
     <div className="w-full h-screen text-center">
-      <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
+      <div className="max-w-[1240px] w-full h-full mx-auto p-6 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-100">
-            LET'S BUILD SOMETHING TOGETHER
+            LET'S BUILD SOMETHING LEGENDARY TOGETHER
           </p>
           <h1 className="py-4 m-auto">
             Kia Ora, I'm <span className="text-[#f56f6f]">Erickson</span>.
