@@ -12,7 +12,7 @@ function Main() {
             LET'S BUILD SOMETHING LEGENDARY TOGETHER
           </p>
           <h1 className="py-4 m-auto">
-            Kia Ora, I'm <span className="text-[#f56f6f]">Erickson</span>.
+            Kia Ora, I'm <span className="text-[#f54444]">Erickson</span>.
           </h1>
           <h1 className="py-2 ">A Front-End Developer</h1>
           <p className="py-2max-w-[70%] m-auto">
