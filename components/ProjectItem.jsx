@@ -4,12 +4,12 @@ import Link from "next/link";
 
 const ProjectItem = ({ title, projectPlatform, backgroundImg, projectUrl }) => {
   return (
-    <div className="bg-[#0d1e2b]  relative flex items-center justify-center h-auto w-full shadow-xl shadow-black rounded-xl p-4 group hover:bg-gradient-to-r from-[#f56f6f] to-[#ec9292] ">
+    <div className="bg-[#0d1e2b]  relative flex items-center justify-center h-auto w-full shadow-xl shadow-black rounded-xl p-4 group hover:bg-gradient-to-r from-[#f54444] to-[#ec9292] ">
       <Image
         className="rounded-xl group-hover:opacity-10"
         src={backgroundImg}
         alt="Nexus app image"
-        height={300}
+        // height={300}
         width={200}
       />
       <div className="text-white hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
