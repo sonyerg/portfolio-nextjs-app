@@ -9,7 +9,7 @@ import flutterLogo from "../public/assets/skills/flutter.png";
 
 const Skills = () => {
   return (
-    <div className="w-full lg:h-screen p-6">
+    <div id="skills" className="w-full lg:h-screen p-6">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className="uppercase text-xl tracking-widest text-[#f54444]">
           Skills
