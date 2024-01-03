@@ -9,14 +9,14 @@ import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Contact = () => {
   return (
-    <div className="w-full lg:h-screen p-6">
+    <div id="contact" className="w-full lg:h-screen p-6">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="uppercase text-xl tracking-widest text-[#f54444]">
           Contact
         </p>
         <h2 className="py-4">Get In Touch</h2>
         <div className="grid lg:grid-cols-5 gap-8">
-          {/* left */}
+          {/* Left */}
           <div className="bg-[#0d1e2b] col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-black rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div className="flex justify-center">
@@ -36,7 +36,7 @@ const Contact = () => {
               </div>
               <div>
                 <p className="uppercase pt-8">Connect With me</p>
-                <div className="max-w-[400px] flex items-center justify-between py-4">
+                <div className="max-w-[500px] flex items-center justify-between py-4">
                   <div className="rounded-full shadow-lg shadow-[#000000] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <FaLinkedin />
                   </div>
@@ -53,7 +53,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          {/* right */}
+          {/* Right */}
           <div className="bg-[#0d1e2b] col-span-3 w-full h-auto shadow-xl shadow-black rounded-xl lg:p-4">
             <div className="p-4">
               <form className="">
@@ -103,13 +103,14 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center py-12">
-          <Link href={""}>
-            <div className="bg-[#0d1e2b] rounded-full shadow-lg shadow-[#000000] p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-              <HiOutlineChevronDoubleUp className="text-[#f54444]" size={30} />
-            </div>
-          </Link>
-        </div>
+      </div>
+      {/* Scroll-to-top button*/}
+      <div className="flex justify-center py-12">
+        <Link href={""}>
+          <div className="bg-[#0d1e2b] rounded-full shadow-lg shadow-[#000000] p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+            <HiOutlineChevronDoubleUp className="text-[#f54444]" size={30} />
+          </div>
+        </Link>
       </div>
     </div>
   );
