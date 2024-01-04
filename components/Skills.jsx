@@ -18,7 +18,7 @@ const Skills = () => {
         <div className="p-10 grid md:grid-cols-2 gap-4">
           {/*HTML*/}
 
-          <div className="bg-[#0d1e2b] p-6 shadow-xl shadow-black rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#1F2937] p-6 shadow-xl shadow-black rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={htmlLogo} alt="html logo" width={64} height={64} />
@@ -30,7 +30,7 @@ const Skills = () => {
           </div>
 
           {/*CSS*/}
-          <div className="bg-[#0d1e2b] p-6 shadow-xl shadow-black rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#1F2937] p-6 shadow-xl shadow-black rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={cssLogo} alt="css logo" width={64} height={64} />
@@ -42,7 +42,7 @@ const Skills = () => {
           </div>
 
           {/*Github*/}
-          <div className="bg-[#0d1e2b] p-6 shadow-xl shadow-black rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#1F2937] p-6 shadow-xl shadow-black rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -59,7 +59,7 @@ const Skills = () => {
           </div>
 
           {/*Tailwind CSS*/}
-          <div className="bg-[#0d1e2b] p-6 shadow-xl shadow-black rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#1F2937] p-6 shadow-xl shadow-black rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -76,7 +76,7 @@ const Skills = () => {
           </div>
 
           {/*Flutter*/}
-          <div className="bg-[#0d1e2b] p-6 shadow-xl shadow-black rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#1F2937] p-6 shadow-xl shadow-black rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
@@ -93,7 +93,7 @@ const Skills = () => {
           </div>
 
           {/*Nextjs*/}
-          <div className="bg-[#0d1e2b] p-6 shadow-xl shadow-black rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="bg-[#1F2937] p-6 shadow-xl shadow-black rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
