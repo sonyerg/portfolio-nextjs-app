@@ -27,12 +27,14 @@ const Navbar = () => {
     <div
       className={
         shadow
-          ? "fixed w-full h-20 shadow-lg shadow-black z-[100] bg-[#08121b] ease-in-out duration-300"
-          : "fixed w-full h-20 z-[100] bg-[#08121b]"
+          ? "fixed w-full h-20 backdrop-filter backdrop-blur-lg shadow-lg z-[100] ease-in-out duration-300"
+          : "fixed w-full h-20 z-[100]"
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image src={navLogo} width={70} height={50} />
+        <a href="#">
+          <Image src={navLogo} width={70} height={50} />
+        </a>
         <div>
           <ul className="hidden md:flex space-x-4 pr-4 text-gray-300">
             <Link href="/#home">
@@ -69,15 +71,17 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#09141d] p-10 ease-in duration-500"
-              : "fixed left-[-100%] p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#121212] backdrop-filter backdrop-blur-lg p-10 ease-in duration-500"
+              : "fixed left-[-100%] p-10 ease-out duration-500"
           }
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Link href="/">
-                <Image src={navLogo} width={40} alt="Logo" />
-              </Link>
+              <div className="cursor-pointer">
+                <Link href="/#home">
+                  <Image src={navLogo} width={40} alt="Logo" />
+                </Link>
+              </div>
 
               <div
                 onClick={handleNav}

@@ -1,6 +1,7 @@
 import React from "react";
 import myImage from "../public/assets/myImage.jpg";
 import Image from "next/image";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -11,25 +12,31 @@ const About = () => {
             About
           </p>
           <h2 className="py-4">Who I am</h2>
-          <p>First sentence here</p>
           <p className="py-2">
-            Your Bio here adl;fjal;skjdf asdlfjals;djk fl;asdfl; kjasdlf;kj
-            asl;dkfj as;ldkjf l;askjdf l;askdjf;lkkjkjsa l;dkfj al;skjdfl;
-            kajsdf sa alksjdfa;lskj dfas;ldjf. adl;fjal;skjdf asdlfjals;djk
-            fl;asdfl; kjasdlf;kj asl;dkfj as;ldkjf l;askjdf l;askdjf;lkkjkjsa
-            l;dkfj al;skjdfl; kajsdf sa alksjdfa;lskj dfas;ldjf
+            I am adept at creating front-end user interfaces that are
+            mobile-responsive and integrate seamlessly with APIs and various
+            backend systems. In my view, the mark of an excellent developer lies
+            not in sticking to a single programming language, but in effectively
+            selecting the most suitable tools for each project.
           </p>
           <p className="py-2">
-            Your Bio here adl;fjal;skjdf asdlfjals;djk fl;asdfl; kjasdlf;kj
-            asl;dkfj as;ldkjf l;askjdf l;askdjf;lkkjkjsa l;dkfj al;skjdfl;
-            kajsdf sa alksjdfa;lskj dfas;ldjf. Jias;dflkja a;sdifi
-            l;ksjadfl;ksdjf.
+            I started my front-end developer career in 2022 when I took an
+            intership job at a deep tech company and built a mobile app, using
+            Flutter framework, that is a part of a system of water scanning
+            technology. This gave me experience working with a team and making
+            an app from scratch.
+          </p>
+          <p className="py-2">
+            Although I'm still in my junior stages of front-end development, I
+            am deeply committed to expanding my skills and knowledge in this
+            field. I am actively seeking opportunities to delve deeper into more
+            advanced concepts and frameworks.
           </p>
           <p className="py-2 underline cursor-pointer">
-            Check out some of my projects.
+            <Link href="/#projects">Check out some of my projects.</Link>
           </p>
         </div>
-        <div className="bg-[#0d1e2b] w-full h-auto m-auto shadow-xl shadow-black rounded-xl flex items-center justify-center p-4 hover:scale-105 duration-300">
+        <div className="bg-[#1F2937] w-full h-auto m-auto shadow-xl shadow-black rounded-xl flex items-center justify-center p-4 hover:scale-105 duration-300">
           <Image className="rounded-xl" src={myImage} alt="My image" />
         </div>
       </div>
