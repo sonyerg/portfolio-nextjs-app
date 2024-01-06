@@ -143,7 +143,7 @@ const Contact = () => {
         </div>
       </div>
       {/* Scroll-to-top button*/}
-      <div className="flex justify-center py-12">
+      <div className="flex justify-center py-12 h-auto bg-[#0a0a0a]">
         <Link href="/#home">
           <div className="bg-[#1F2937] rounded-full shadow-lg shadow-[#000000] p-4 cursor-pointer hover:scale-110 ease-in duration-300">
             <HiOutlineChevronDoubleUp className="text-[#f54444]" size={30} />

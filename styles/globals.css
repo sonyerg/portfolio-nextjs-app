@@ -35,4 +35,8 @@ html {
   button {
     @apply shadow-xl shadow-black rounded-xl uppercase bg-gradient-to-r from-[#f54444] to-[#f76969] text-white;
   }
+
+  input {
+    @apply bg-[#d4dfe9] text-black border-2;
+  }
 }
