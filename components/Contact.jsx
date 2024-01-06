@@ -24,6 +24,8 @@ const Contact = () => {
                   className="rounded-xl hover:scale-105 ease-in duration-300"
                   src={contactImg}
                   alt="Image of a laptop"
+                  width={500}
+                  // height={400}
                 />
               </div>
               <div>
@@ -37,18 +39,33 @@ const Contact = () => {
               <div>
                 <p className="uppercase pt-8">Connect With me</p>
                 <div className=" flex items-center justify-between p-4">
-                  <div className="bg-[#132b3d] rounded-full shadow-lg shadow-[#000000] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <a
+                    className="bg-[#1F2937] rounded-full shadow-lg shadow-[#000000] p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+                    href="https://www.linkedin.com/in/ericksonguinto/"
+                    target="_blank"
+                  >
                     <FaLinkedin />
-                  </div>
-                  <div className="bg-[#132b3d] rounded-full shadow-lg shadow-[#000000] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  </a>
+                  <a
+                    className="bg-[#1F2937] rounded-full shadow-lg shadow-[#000000] p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+                    href="https://github.com/sonyerg"
+                    target="_blank"
+                  >
                     <FaGithub />
-                  </div>
-                  <div className="bg-[#132b3d] rounded-full shadow-lg shadow-[#000000] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  </a>
+                  <a
+                    className="bg-[#1F2937] rounded-full shadow-lg shadow-[#000000] p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+                    href="mailto:ericksonrguinto@gmail.com"
+                    target="_blank"
+                  >
                     <AiOutlineMail />
-                  </div>
-                  <div className="bg-[#132b3d] rounded-full shadow-lg shadow-[#000000] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  </a>
+                  <Link
+                    className="bg-[#1F2937] rounded-full shadow-lg shadow-[#000000] p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+                    href="/#contact"
+                  >
                     <BsFillPersonLinesFill />
-                  </div>
+                  </Link>
                 </div>
               </div>
             </div>

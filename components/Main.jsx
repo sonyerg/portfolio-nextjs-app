@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
@@ -25,18 +26,33 @@ function Main() {
             ready to contribute and grow in a forward-thinking environment. */}
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div className="bg-[#1F2937] rounded-full shadow-lg shadow-[#000000] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+            <a
+              className="bg-[#1F2937] rounded-full shadow-lg shadow-[#000000] p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+              href="https://www.linkedin.com/in/ericksonguinto/"
+              target="_blank"
+            >
               <FaLinkedin />
-            </div>
-            <div className="bg-[#1F2937] rounded-full shadow-lg shadow-[#000000] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+            </a>
+            <a
+              className="bg-[#1F2937] rounded-full shadow-lg shadow-[#000000] p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+              href="https://github.com/sonyerg"
+              target="_blank"
+            >
               <FaGithub />
-            </div>
-            <div className="bg-[#1F2937] rounded-full shadow-lg shadow-[#000000] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+            </a>
+            <a
+              className="bg-[#1F2937] rounded-full shadow-lg shadow-[#000000] p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+              href="mailto:ericksonrguinto@gmail.com"
+              target="_blank"
+            >
               <AiOutlineMail />
-            </div>
-            <div className="bg-[#1F2937] rounded-full shadow-lg shadow-[#000000] p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+            </a>
+            <Link
+              className="bg-[#1F2937] rounded-full shadow-lg shadow-[#000000] p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+              href="/#contact"
+            >
               <BsFillPersonLinesFill />
-            </div>
+            </Link>
           </div>
         </div>
       </div>

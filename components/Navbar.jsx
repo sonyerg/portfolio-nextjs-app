@@ -32,7 +32,7 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <a href="#">
+        <a href="/#home">
           <Image src={navLogo} width={50} />
         </a>
         <div>
@@ -129,18 +129,34 @@ const Navbar = () => {
                 Let's connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div className="rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <a
+                  className="rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                  href="https://www.linkedin.com/in/ericksonguinto/"
+                  target="_blank"
+                >
                   <FaLinkedinIn />
-                </div>
-                <div className="rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                </a>
+                <a
+                  className="rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                  href="https://github.com/sonyerg"
+                  target="_blank"
+                >
                   <FaGithub />
-                </div>
-                <div className="rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                </a>
+                <a
+                  className="rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                  href="mailto:ericksonrguinto@gmail.com"
+                  target="_blank"
+                >
                   <AiOutlineMail />
-                </div>
-                <div className="rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                </a>
+                <Link
+                  className="rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                  onClick={() => setNav(false)}
+                  href="/#contact"
+                >
                   <BsFillPersonLinesFill />
-                </div>
+                </Link>
               </div>
             </div>
           </div>
