@@ -11,6 +11,12 @@ export default function Home() {
       <Head>
         <title>Erickson | Front-End Developer</title>
         <link rel="icon" href="/assets/navLogo.png" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://ericksonguinto.vercel.app/" />
+        <meta
+          property="og:description"
+          content="Erickson's Portfolio Website"
+        />
         <meta property="og:image" content="/previewImage.png" />
       </Head>
       <Main />
