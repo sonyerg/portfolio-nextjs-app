@@ -10,6 +10,8 @@ export default function Home() {
     <div>
       <Head>
         <title>Erickson | Front-End Developer</title>
+        <link rel="icon" href="/assets/navLogo.png" />
+        <meta property="og:image" content="/assets/navLogo.png" />
       </Head>
       <Main />
       <About />
