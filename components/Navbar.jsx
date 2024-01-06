@@ -130,28 +130,28 @@ const Navbar = () => {
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a
-                  className="rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                  className="bg-[#1F2937] rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300"
                   href="https://www.linkedin.com/in/ericksonguinto/"
                   target="_blank"
                 >
                   <FaLinkedinIn />
                 </a>
                 <a
-                  className="rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                  className="bg-[#1F2937] rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300"
                   href="https://github.com/sonyerg"
                   target="_blank"
                 >
                   <FaGithub />
                 </a>
                 <a
-                  className="rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                  className="bg-[#1F2937] rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300"
                   href="mailto:ericksonrguinto@gmail.com"
                   target="_blank"
                 >
                   <AiOutlineMail />
                 </a>
                 <Link
-                  className="rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                  className="bg-[#1F2937] rounded-full shadow-lg shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300"
                   onClick={() => setNav(false)}
                   href="/#contact"
                 >
