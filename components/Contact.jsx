@@ -73,47 +73,68 @@ const Contact = () => {
           {/* Right */}
           <div className="bg-[#1F2937] col-span-3 w-full h-auto shadow-xl shadow-black rounded-xl lg:p-4">
             <div className="p-4">
-              <form className="">
+              <form
+                className=""
+                action="https://getform.io/f/8903d60a-71b1-4c17-8c1d-502414679d67"
+                method="POST"
+                encType="multipart/form-data"
+              >
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
                     <input
                       className="bg-[#d4dfe9] border-2 rounded-lg p-3 flex border-gray-200 text-black"
                       type="text"
+                      name="name" // Add name attribute
                     />
                   </div>
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">
-                      phone number
+                      Phone Number
                     </label>
                     <input
-                      className="bg-[#d4dfe9]  border-2 rounded-lg p-3 flex border-gray-200 text-black"
+                      className="bg-[#d4dfe9] border-2 rounded-lg p-3 flex border-gray-200 text-black"
                       type="text"
+                      name="phone" // Add name attribute
                     />
                   </div>
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">email</label>
+                  <label className="uppercase text-sm py-2">Email</label>
                   <input
-                    className="bg-[#d4dfe9]  border-2 rounded-lg p-3 flex border-gray-200 text-black"
+                    className="bg-[#d4dfe9] border-2 rounded-lg p-3 flex border-gray-200 text-black"
                     type="email"
+                    name="email" // Add name attribute
                   />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">subject</label>
+                  <label className="uppercase text-sm py-2">Subject</label>
                   <input
-                    className="bg-[#d4dfe9]  border-2 rounded-lg p-3 flex border-gray-200 text-black"
+                    className="bg-[#d4dfe9] border-2 rounded-lg p-3 flex border-gray-200 text-black"
                     type="text"
+                    name="subject" // Add name attribute
                   />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">message</label>
+                  <label className="uppercase text-sm py-2">Message</label>
                   <textarea
                     className="bg-[#d4dfe9] text-black border-2 rounded-lg p-3"
                     rows="5"
+                    name="message" // Add name attribute
                   ></textarea>
                 </div>
-                <button className="w-full p-4 text-gray-100 mt-4">
+
+                {/* Honeypot field (hidden) */}
+                <input
+                  type="text"
+                  name="_honeypot"
+                  style={{ display: "none" }}
+                />
+
+                <button
+                  type="submit"
+                  className="w-full p-4 text-white mt-4 bg-gradient-to-r from-[#f54444] to-[#f76969]"
+                >
                   Send Message
                 </button>
               </form>
