@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
 import nexusImg from "../public/assets/projects/nexusApp.jpg";
-import moreProjects from "../public/assets/projects/moreProjects.jpg";
+import jsRpgImg from "../public/assets/projects/jsRpgImg.png";
 
 const Projects = () => {
   return (
@@ -17,6 +17,12 @@ const Projects = () => {
             projectPlatform="Flutter"
             backgroundImg={nexusImg}
             projectUrl="/nexus"
+          />
+          <ProjectItem
+            title="JS RPG"
+            projectPlatform="Vanilla JS"
+            backgroundImg={jsRpgImg}
+            projectUrl="/jsRpg"
           />
           <div
             className="bg-[#1F2937] relative flex items-center justify-center h-auto w-full shadow-xl shadow-black 

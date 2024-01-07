@@ -13,7 +13,7 @@ const ProjectItem = ({ title, projectPlatform, backgroundImg, projectUrl }) => {
         src={backgroundImg}
         alt="/"
         // height={300}
-        width={200}
+        width={250}
       />
       <div className="text-white hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
         <h3 className="text-2xl tracking-wider text-center">{title}</h3>
