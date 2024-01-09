@@ -8,13 +8,17 @@ const ProjectItem = ({ title, projectPlatform, backgroundImg, projectUrl }) => {
       className="bg-[#1F2937] relative flex items-center justify-center h-auto w-full shadow-xl shadow-black 
     rounded-xl p-4 group hover:bg-gradient-to-r from-[#f54444] to-[#ec9292] "
     >
-      <Image
-        className="rounded-xl group-hover:opacity-10"
-        src={backgroundImg}
-        alt="/"
-        width={200}
-        objectFit="cover"
-      />
+      <div className="h-[500px] md:h-[300px]">
+        <Image
+          className="rounded-xl group-hover:opacity-10 p-4"
+          src={backgroundImg}
+          alt="/"
+          objectFit="cover"
+          layout="fill"
+          // width={200}
+        />
+      </div>
+
       <div className="text-white hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
         <h3 className="text-2xl tracking-wider text-center">{title}</h3>
         <p className="pb-4 pt-2 text-center">{projectPlatform}</p>
