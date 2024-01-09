@@ -2,6 +2,7 @@ import React from "react";
 import ProjectItem from "./ProjectItem";
 import nexusImg from "../public/assets/projects/nexusApp.jpg";
 import jsRpgImg from "../public/assets/projects/jsRpgImg.png";
+import calorieCounterImg from "../public/assets/projects/calorieCounterImg.png";
 
 const Projects = () => {
   return (
@@ -23,6 +24,12 @@ const Projects = () => {
             projectPlatform="Vanilla JS"
             backgroundImg={jsRpgImg}
             projectUrl="/jsRpg"
+          />
+          <ProjectItem
+            title="Calorie Counter"
+            projectPlatform="Vanilla JS"
+            backgroundImg={calorieCounterImg}
+            projectUrl="/calorieCounter"
           />
           <div
             className="bg-[#1F2937] relative flex items-center justify-center h-auto w-full shadow-xl shadow-black 

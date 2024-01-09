@@ -85,7 +85,7 @@ const Contact = () => {
                     <input
                       className="bg-[#d4dfe9] border-2 rounded-lg p-3 flex border-gray-200 text-black"
                       type="text"
-                      name="name" // Add name attribute
+                      name="name"
                     />
                   </div>
                   <div className="flex flex-col">
@@ -95,7 +95,7 @@ const Contact = () => {
                     <input
                       className="bg-[#d4dfe9] border-2 rounded-lg p-3 flex border-gray-200 text-black"
                       type="text"
-                      name="phone" // Add name attribute
+                      name="phone"
                     />
                   </div>
                 </div>
@@ -104,7 +104,7 @@ const Contact = () => {
                   <input
                     className="bg-[#d4dfe9] border-2 rounded-lg p-3 flex border-gray-200 text-black"
                     type="email"
-                    name="email" // Add name attribute
+                    name="email"
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -112,7 +112,7 @@ const Contact = () => {
                   <input
                     className="bg-[#d4dfe9] border-2 rounded-lg p-3 flex border-gray-200 text-black"
                     type="text"
-                    name="subject" // Add name attribute
+                    name="subject"
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -120,7 +120,7 @@ const Contact = () => {
                   <textarea
                     className="bg-[#d4dfe9] text-black border-2 rounded-lg p-3"
                     rows="5"
-                    name="message" // Add name attribute
+                    name="message"
                   ></textarea>
                 </div>
 
