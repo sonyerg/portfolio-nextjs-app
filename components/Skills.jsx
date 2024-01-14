@@ -6,6 +6,8 @@ import nextJsLogo from "../public/assets/skills/nextjs.png";
 import tailwindLogo from "../public/assets/skills/tailwind.png";
 import cssLogo from "../public/assets/skills/css.png";
 import flutterLogo from "../public/assets/skills/flutter.png";
+import jsLogo from "../public/assets/skills/javascript.png";
+import reactLogo from "../public/assets/skills/react.png";
 
 const Skills = () => {
   return (
@@ -41,19 +43,43 @@ const Skills = () => {
             </div>
           </div>
 
-          {/*Github*/}
+          {/*JS*/}
+          <div className="bg-[#1F2937] p-6 shadow-xl shadow-black rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={jsLogo} alt="css logo" width={64} height={64} />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>JavaScript</h3>
+              </div>
+            </div>
+          </div>
+
+          {/*React*/}
+          <div className="bg-[#1F2937] p-6 shadow-xl shadow-black rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={reactLogo} alt="css logo" width={64} height={64} />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>React</h3>
+              </div>
+            </div>
+          </div>
+
+          {/*Nextjs*/}
           <div className="bg-[#1F2937] p-6 shadow-xl shadow-black rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src={githubLogo}
-                  alt="github logo"
+                  src={nextJsLogo}
+                  alt="html logo"
                   width={64}
                   height={64}
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>GitHub</h3>
+                <h3>NextJs</h3>
               </div>
             </div>
           </div>
@@ -92,19 +118,19 @@ const Skills = () => {
             </div>
           </div>
 
-          {/*Nextjs*/}
+          {/*Github*/}
           <div className="bg-[#1F2937] p-6 shadow-xl shadow-black rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src={nextJsLogo}
-                  alt="html logo"
+                  src={githubLogo}
+                  alt="github logo"
                   width={64}
                   height={64}
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>NextJs</h3>
+                <h3>GitHub</h3>
               </div>
             </div>
           </div>
