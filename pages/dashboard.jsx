@@ -39,8 +39,10 @@ const nexus = () => {
                 - The ability for users to add, edit, and delete invoices.
               </li>
             </ul>
-            <p>Enter this email and password to test the website out: </p>
-            <p>user@nextmail.com | 123456</p>
+            <p>
+              Enter this email and password to test the website out:
+              user@nextmail.com | 123456
+            </p>
           </div>
           <a
             href="https://nextjs-dashboard-pi-two-29.vercel.app/"
