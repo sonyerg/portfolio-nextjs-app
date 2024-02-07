@@ -3,7 +3,7 @@ import myImage from "../public/assets/myImage.jpg";
 import Image from "next/image";
 import Link from "next/link";
 
-const About = () => {
+export default function About() {
   return (
     <div id="about" className="w-full md:h-screen p-6 flex items-center py-6">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
@@ -42,6 +42,4 @@ const About = () => {
       </div>
     </div>
   );
-};
-
-export default About;
+}

@@ -15,7 +15,7 @@ export default function Home() {
         <meta property="og:url" content="https://ericksonguinto.vercel.app/" />
         <meta
           property="og:description"
-          content="Erickson's Portfolio Website"
+          content="Erickson Guinto's Portfolio Website"
         />
         <meta property="og:image" content="/previewImage.png" />
       </Head>

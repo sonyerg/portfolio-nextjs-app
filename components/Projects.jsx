@@ -3,6 +3,7 @@ import ProjectItem from "./ProjectItem";
 import nexusImg from "../public/assets/projects/nexusApp.jpg";
 import jsRpgImg from "../public/assets/projects/jsRpgImg.png";
 import calorieCounterImg from "../public/assets/projects/calorieCounterImg.png";
+import dashboardImg from "../public/assets/projects/dashboardImg.png";
 
 const Projects = () => {
   return (
@@ -30,6 +31,12 @@ const Projects = () => {
             projectPlatform="Vanilla JS"
             backgroundImg={calorieCounterImg}
             projectUrl="/calorieCounter"
+          />
+          <ProjectItem
+            title="Next.js Financial Dashboard"
+            projectPlatform="Next.js"
+            backgroundImg={dashboardImg}
+            projectUrl="/dashboard"
           />
           <div
             className="bg-[#1F2937] relative flex items-center justify-center h-auto w-full shadow-xl shadow-black 
