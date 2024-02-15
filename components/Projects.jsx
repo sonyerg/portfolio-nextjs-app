@@ -4,6 +4,7 @@ import nexusImg from "../public/assets/projects/nexusApp.jpg";
 import jsRpgImg from "../public/assets/projects/jsRpgImg.png";
 import calorieCounterImg from "../public/assets/projects/calorieCounterImg.png";
 import dashboardImg from "../public/assets/projects/dashboardImg.png";
+import reactEssentialsImg from "../public/assets/projects/reactEssentialsImg.png";
 
 const Projects = () => {
   return (
@@ -14,12 +15,6 @@ const Projects = () => {
         </p>
         <h2 className="py-4">What I've built</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          <ProjectItem
-            title="Nexus"
-            projectPlatform="Flutter"
-            backgroundImg={nexusImg}
-            projectUrl="/nexus"
-          />
           <ProjectItem
             title="JS RPG"
             projectPlatform="Vanilla JS"
@@ -33,10 +28,22 @@ const Projects = () => {
             projectUrl="/calorieCounter"
           />
           <ProjectItem
+            title="React Essentials"
+            projectPlatform="React"
+            backgroundImg={reactEssentialsImg}
+            projectUrl="/reactEssentials"
+          />
+          <ProjectItem
             title="Next.js Financial Dashboard"
             projectPlatform="Next.js"
             backgroundImg={dashboardImg}
             projectUrl="/dashboard"
+          />
+          <ProjectItem
+            title="Nexus"
+            projectPlatform="Flutter"
+            backgroundImg={nexusImg}
+            projectUrl="/nexus"
           />
           <div
             className="bg-[#1F2937] relative flex items-center justify-center h-auto w-full shadow-xl shadow-black 

@@ -4,7 +4,7 @@ import Link from "next/link";
 import jsRpgImg from "../public/assets/projects/jsRpgImg.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 
-const nexus = () => {
+const jsRpg = () => {
   return (
     <div className="w-full h-auto">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -68,4 +68,4 @@ const nexus = () => {
   );
 };
 
-export default nexus;
+export default jsRpg;
