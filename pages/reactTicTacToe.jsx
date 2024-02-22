@@ -1,6 +1,7 @@
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import reactEssentialsImg from "../public/assets/projects/reactEssentialsImg.png";
+import reactTicTacToeImg from "../public/assets/projects/reactTicTacToeImg.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 
 const reactEssentials = () => {
@@ -12,12 +13,13 @@ const reactEssentials = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={reactEssentialsImg}
+          // style={{ objectPosition: "center" }}
+          src={reactTicTacToeImg}
         />
 
         <div className="text-white absolute z-10 py-2 px-6 top-[70%] max-w-[1240px] w-full left-[50%] translate-x-[-50%] translate-y-[-50%]">
-          <h2 className="py-2">React Essentials</h2>
-          <h3>React / Vite / Vitest</h3>
+          <h2 className="py-2">React Tic Tac Toe</h2>
+          <h3>React / Vite </h3>
         </div>
       </div>
 
@@ -28,20 +30,23 @@ const reactEssentials = () => {
           </p>
           <h2 className="py-4">Overview</h2>
           <p>
-            This is a webapp with fundamental React concepts that will be needed
-            for almost any app!
+            React Tic Tac Toe is a web application where you can play a game of
+            tic tac toe, built with React!
           </p>
           <p>
-            It displays and demonstrate the concepts of Components, JSX, Props,
-            and State; which are all core concepts of React.
+            It has change name feature and can log moves done by players and
+            also has beatiful design.
           </p>
           <a
-            href="https://sonyerg-react-essentials.netlify.app/"
+            href="https://tic-tac-toe-react-app-dun.vercel.app/"
             target="_blank"
           >
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </a>
-          <a href="https://github.com/sonyerg/react-essentials" target="_blank">
+          <a
+            href="https://github.com/sonyerg/tic-tac-toe-react-app"
+            target="_blank"
+          >
             <button className="px-8 py-2 mt-4">Code</button>
           </a>
         </div>
@@ -61,7 +66,7 @@ const reactEssentials = () => {
             </p>
             <p className="tex-gray-600 py-2 flex items-center">
               <RiRadioButtonFill className="pr-1" />
-              Vitest
+              Vercel
             </p>
           </div>
         </div>

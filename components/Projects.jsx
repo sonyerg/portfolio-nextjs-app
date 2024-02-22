@@ -5,6 +5,8 @@ import jsRpgImg from "../public/assets/projects/jsRpgImg.png";
 import calorieCounterImg from "../public/assets/projects/calorieCounterImg.png";
 import dashboardImg from "../public/assets/projects/dashboardImg.png";
 import reactEssentialsImg from "../public/assets/projects/reactEssentialsImg.png";
+import investmentCalculatorImg from "../public/assets/projects/investmentCalculatorImg.png";
+import reactTicTacToeImg from "../public/assets/projects/reactTicTacToeImg.png";
 
 const Projects = () => {
   return (
@@ -29,9 +31,21 @@ const Projects = () => {
           />
           <ProjectItem
             title="React Essentials"
-            projectPlatform="React"
+            projectPlatform="Vite React"
             backgroundImg={reactEssentialsImg}
             projectUrl="/reactEssentials"
+          />
+          <ProjectItem
+            title="Tic Tac Toe"
+            projectPlatform="Vite React"
+            backgroundImg={reactTicTacToeImg}
+            projectUrl="/reactTicTacToe"
+          />
+          <ProjectItem
+            title="Investment Calculator"
+            projectPlatform="Vite React"
+            backgroundImg={investmentCalculatorImg}
+            projectUrl="/investmentCalculator"
           />
           <ProjectItem
             title="Next.js Financial Dashboard"
@@ -45,6 +59,7 @@ const Projects = () => {
             backgroundImg={nexusImg}
             projectUrl="/nexus"
           />
+
           <div
             className="bg-[#1F2937] relative flex items-center justify-center h-auto w-full shadow-xl shadow-black 
              rounded-xl p-4 group hover:bg-gradient-to-r from-[#f54444] to-[#ec9292] "
