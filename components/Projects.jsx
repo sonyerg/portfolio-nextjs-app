@@ -48,12 +48,6 @@ const Projects = () => {
             projectUrl="/investmentCalculator"
           />
           <ProjectItem
-            title="Next.js Financial Dashboard"
-            projectPlatform="Next.js"
-            backgroundImg={dashboardImg}
-            projectUrl="/dashboard"
-          />
-          <ProjectItem
             title="Nexus"
             projectPlatform="Flutter"
             backgroundImg={nexusImg}

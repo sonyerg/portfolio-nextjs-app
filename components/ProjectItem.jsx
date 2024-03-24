@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -10,12 +9,12 @@ const ProjectItem = ({ title, projectPlatform, backgroundImg, projectUrl }) => {
     >
       <div className="h-[500px] md:h-[300px]">
         <Image
-          className="rounded-xl group-hover:opacity-10 p-4"
+          className="rounded-xl group-hover:opacity-10 p-4 object-cover"
           src={backgroundImg}
           alt="/"
-          objectFit="cover"
           layout="fill"
           // width={200}
+          // objectFit="cover"
         />
       </div>
 
