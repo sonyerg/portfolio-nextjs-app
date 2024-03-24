@@ -31,13 +31,21 @@ const nexus = () => {
           <h2 className="py-4">Overview</h2>
           <p>
             The Nexus mobile app is built using Flutter framework and is hosted
-            on a custom backend. This app is made for my internship. It is a
+            by a custom backend. This app is made during my internship; it is a
             part of a system of water scanning technology that detects
-            particulates on water. Users are able to scan a water sample and
-            then upload that image to an AI server. The images, along with
-            additional data, are fetched and users are able to view those
-            infomation on the app. User authentication is also available so
-            users can signup to their account via email address.
+            particulates on water.
+          </p>
+          <br />
+          <p>
+            Users are able to scan a water sample and then upload that image to
+            an AI server. The images, along with additional data, are fetched
+            and users are able to view those infomation on the app.
+          </p>
+          <br />
+
+          <p>
+            User authentication is also available so users can signup to their
+            account via email address.
           </p>
           {/* <button className="px-8 py-2 mt-4 mr-8">Demo</button> */}
           {/* <button className="px-8 py-2 mt-4">Code</button> */}
