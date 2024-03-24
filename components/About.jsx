@@ -21,16 +21,14 @@ export default function About() {
           </p>
           <p className="py-2">
             I started my front-end developer career in 2022 when I took an
-            intership job at a deep tech company and built a mobile app, using
-            Flutter framework, that is a part of a system of water scanning
-            technology. This gave me experience working with a team and making
-            an app from scratch.
+            intership job at a startup company and built a mobile app, using
+            Flutter framework. This gave me an opportunity to learn and show my
+            skills and experience working with a team.
           </p>
           <p className="py-2">
-            Although I'm still in my junior stages of front-end development, I
-            am deeply committed to expanding my skills and knowledge in this
-            field. I am actively seeking opportunities to delve deeper into more
-            advanced concepts and frameworks.
+            I am deeply committed to expanding my skills and knowledge in this
+            field and also actively seeking opportunities to delve deeper into
+            more advanced concepts and frameworks.
           </p>
           <p className="py-2 underline cursor-pointer">
             <Link href="/#projects">Check out some of my projects.</Link>
