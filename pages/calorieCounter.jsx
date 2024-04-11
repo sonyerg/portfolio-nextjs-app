@@ -30,9 +30,9 @@ const calorieCounter = () => {
           </p>
           <h2 className="py-4">Overview</h2>
           <p>
-            Learning how to validate user input, perform calculations based on
-            that input, and dynamically update your interface to display the
-            results.
+            In this web app, I learned how to validate user input, perform
+            calculations based on that input, and dynamically update your
+            interface to display the results.
           </p>
           <a
             href="https://sonyerg.github.io/calorie-counter-js/"

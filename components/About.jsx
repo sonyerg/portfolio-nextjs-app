@@ -21,7 +21,7 @@ export default function About() {
           </p>
           <p className="py-2">
             I started my front-end developer career in 2022 when I took an
-            intership job at a startup company and built a mobile app, using
+            intership job at a startup company and built a mobile app using
             Flutter framework. This gave me an opportunity to learn and show my
             skills and experience working with a team.
           </p>

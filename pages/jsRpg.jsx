@@ -30,8 +30,8 @@ const jsRpg = () => {
           </p>
           <h2 className="py-4">Overview</h2>
           <p>
-            Learning fundamental programming concepts in JavaScript by coding a
-            Role Playing Game.
+            In this web app, I learned fundamental programming concepts in
+            JavaScript by coding a Role Playing Game in Vanilla JS.
           </p>
           <a href="https://sonyerg.github.io/js-rpg/" target="_blank">
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>

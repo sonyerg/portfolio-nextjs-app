@@ -30,12 +30,6 @@ const Projects = () => {
             projectUrl="/calorieCounter"
           />
           <ProjectItem
-            title="React Essentials"
-            projectPlatform="Vite React"
-            backgroundImg={reactEssentialsImg}
-            projectUrl="/reactEssentials"
-          />
-          <ProjectItem
             title="Tic Tac Toe"
             projectPlatform="Vite React"
             backgroundImg={reactTicTacToeImg}

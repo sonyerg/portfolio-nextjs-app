@@ -30,16 +30,16 @@ const projectManagement = () => {
           </p>
           <h2 className="py-4">Overview</h2>
           <p>
-            Project Management web app is a simple project or tasks tracker. You
-            can add due dates, add tasks on each project, and delete whichever.
+            Project Management web app is a simple project manager and tasks
+            tracker. You can add due dates and add tasks on each project;
+            applying basic CRUD functionality.
           </p>
           <br />
           <p>
-            It applies advanced state management method such as React's Context
-            API.
+            It also uses advanced state management method such as React's
+            Context API.
           </p>
           <br />
-
           <a
             href="https://project-management-react-app.vercel.app/"
             target="_blank"

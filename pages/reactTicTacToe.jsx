@@ -31,11 +31,11 @@ const reactEssentials = () => {
           <h2 className="py-4">Overview</h2>
           <p>
             React Tic Tac Toe is a web application where you can play a game of
-            tic tac toe, built with React!
+            tic tac toe.
           </p>
           <p>
-            It has change name feature and can log moves done by players and
-            also has beatiful design.
+            It has change name feature and has logs of the moves done by
+            players.
           </p>
           <a
             href="https://tic-tac-toe-react-app-dun.vercel.app/"
