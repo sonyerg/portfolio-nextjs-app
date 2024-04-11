@@ -1,8 +1,5 @@
 import React from "react";
-import Image from "next/image";
-import Link from "next/link";
 import nexusImg from "../public/assets/projects/nexusApp.jpg";
-import { RiRadioButtonFill } from "react-icons/ri";
 import ProjectPage from "../components/ProjectPage";
 
 const nexus = () => {

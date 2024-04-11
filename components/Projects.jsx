@@ -53,13 +53,15 @@ const Projects = () => {
             backgroundImg={nexusImg}
             projectUrl="/nexus"
           />
-          <div
-            className="bg-[#1F2937] relative flex items-center justify-center h-auto w-full shadow-xl shadow-black 
+        </div>
+        <div
+          className="mt-4 bg-[#1F2937] relative flex items-center justify-center h-auto w-full shadow-xl shadow-black 
              rounded-xl p-4 group hover:bg-gradient-to-r from-[#f54444] to-[#ec9292] "
-          >
-            <h2 className="text-center">More Projects coming soon... 🚀🚀🚀</h2>
-            <div className="text-white hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"></div>
-          </div>
+        >
+          <h2 className="p-12 text-center">
+            More Projects coming soon... 🚀🚀🚀
+          </h2>
+          <div className="text-white hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"></div>
         </div>
       </div>
     </div>

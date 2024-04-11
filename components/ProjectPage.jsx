@@ -19,7 +19,6 @@ const ProjectPage = ({
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          //   style={{ objectPosition: "center" }}
           src={projectImg}
         />
 
