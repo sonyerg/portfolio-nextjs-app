@@ -1,9 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
-import reactEssentialsImg from "../public/assets/projects/reactEssentialsImg.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 
-const reactEssentials = () => {
+const ProjectPage = ({
+  projectImg,
+  projectTitle,
+  projectPlatform,
+  projectDescription,
+  projectDemoLink,
+  projectCodeLink,
+  techStacks,
+}) => {
   return (
     <div className="w-full h-auto">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -12,12 +19,13 @@ const reactEssentials = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={reactEssentialsImg}
+          //   style={{ objectPosition: "center" }}
+          src={projectImg}
         />
 
         <div className="text-white absolute z-10 py-2 px-6 top-[70%] max-w-[1240px] w-full left-[50%] translate-x-[-50%] translate-y-[-50%]">
-          <h2 className="py-2">React Essentials</h2>
-          <h3>React / Vite / Vitest</h3>
+          <h2 className="py-2">{projectTitle}</h2>
+          <h3>{projectPlatform}</h3>
         </div>
       </div>
 
@@ -27,21 +35,11 @@ const reactEssentials = () => {
             Project
           </p>
           <h2 className="py-4">Overview</h2>
-          <p>
-            This is a webapp with fundamental React concepts that will be needed
-            for almost any app!
-          </p>
-          <p>
-            It displays and demonstrate the concepts of Components, JSX, Props,
-            and State; which are all core concepts of React.
-          </p>
-          <a
-            href="https://sonyerg-react-essentials.netlify.app/"
-            target="_blank"
-          >
+          <p>{projectDescription}</p>
+          <a href={projectDemoLink} target="_blank">
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </a>
-          <a href="https://github.com/sonyerg/react-essentials" target="_blank">
+          <a href={projectCodeLink} target="_blank">
             <button className="px-8 py-2 mt-4">Code</button>
           </a>
         </div>
@@ -51,18 +49,12 @@ const reactEssentials = () => {
             <p className="text-center font-bold pb-2">Technologies</p>
           </div>
           <div className="grid grid-cols-3 md:grid-cols-1">
-            <p className="tex-gray-600 py-2 flex items-center">
-              <RiRadioButtonFill className="pr-1" />
-              React
-            </p>
-            <p className="tex-gray-600 py-2 flex items-center">
-              <RiRadioButtonFill className="pr-1" />
-              Vite
-            </p>
-            <p className="tex-gray-600 py-2 flex items-center">
-              <RiRadioButtonFill className="pr-1" />
-              Vitest
-            </p>
+            {techStacks.map((tech) => (
+              <li className="tex-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                {tech}
+              </li>
+            ))}
           </div>
         </div>
         <Link href="/#projects">
@@ -73,4 +65,4 @@ const reactEssentials = () => {
   );
 };
 
-export default reactEssentials;
+export default ProjectPage;
