@@ -3,7 +3,6 @@ import ProjectItem from "./ProjectItem";
 import nexusImg from "../public/assets/projects/nexusApp.jpg";
 import jsRpgImg from "../public/assets/projects/jsRpgImg.png";
 import calorieCounterImg from "../public/assets/projects/calorieCounterImg.png";
-import reactEssentialsImg from "../public/assets/projects/reactEssentialsImg.png";
 import investmentCalculatorImg from "../public/assets/projects/investmentCalculatorImg.png";
 import reactTicTacToeImg from "../public/assets/projects/reactTicTacToeImg.png";
 import projectManagementImg from "../public/assets/projects/projectManagementImg.png";
