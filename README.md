@@ -1,6 +1,6 @@
 # My Portfolio Nextjs Web App
 
-Building my own portfolio web app (to impress recruiters) made in Next.js.
+Building my own portfolio web app in Next.js.
 
 ## Objectives
 
