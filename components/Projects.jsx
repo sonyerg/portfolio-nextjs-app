@@ -6,6 +6,7 @@ import calorieCounterImg from "../public/assets/projects/calorieCounterImg.png";
 import investmentCalculatorImg from "../public/assets/projects/investmentCalculatorImg.png";
 import reactTicTacToeImg from "../public/assets/projects/reactTicTacToeImg.png";
 import projectManagementImg from "../public/assets/projects/projectManagementImg.png";
+import foodOrderAppImg from "../public/assets/projects/foodOrderAppImg.png";
 
 const Projects = () => {
   return (
@@ -45,6 +46,12 @@ const Projects = () => {
             projectPlatform="Vite React"
             backgroundImg={projectManagementImg}
             projectUrl="/projectManagement"
+          />
+          <ProjectItem
+            title="Food Order App"
+            projectPlatform="Vite React"
+            backgroundImg={foodOrderAppImg}
+            projectUrl="/foodOrderApp"
           />
           <ProjectItem
             title="Nexus"
