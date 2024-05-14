@@ -2,7 +2,7 @@ import React from "react";
 import investmentCalculatorImg from "../public/assets/projects/investmentCalculatorImg.png";
 import ProjectPage from "../components/ProjectPage";
 
-const reactEssentials = () => {
+const investmentCalculator = () => {
   return (
     <ProjectPage
       projectImg={investmentCalculatorImg}
@@ -17,4 +17,4 @@ const reactEssentials = () => {
   );
 };
 
-export default reactEssentials;
+export default investmentCalculator;

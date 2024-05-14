@@ -7,6 +7,7 @@ import investmentCalculatorImg from "../public/assets/projects/investmentCalcula
 import reactTicTacToeImg from "../public/assets/projects/reactTicTacToeImg.png";
 import projectManagementImg from "../public/assets/projects/projectManagementImg.png";
 import foodOrderAppImg from "../public/assets/projects/foodOrderAppImg.png";
+import netflixCloneImg from "../public/assets/projects/netflixCloneImg.png";
 
 const Projects = () => {
   return (
@@ -17,6 +18,12 @@ const Projects = () => {
         </p>
         <h2 className="py-4">What I've built</h2>
         <div className="grid md:grid-cols-2 gap-8">
+          <ProjectItem
+            title="Netflix Clone"
+            projectPlatform="Next JS"
+            backgroundImg={netflixCloneImg}
+            projectUrl="/netflixClone"
+          />
           <ProjectItem
             title="JS RPG"
             projectPlatform="Vanilla JS"
