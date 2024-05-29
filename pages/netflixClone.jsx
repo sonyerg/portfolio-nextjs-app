@@ -12,7 +12,7 @@ const netflixClone = () => {
   return (
     <>
       <ProjectPage
-        projectImg={netflixCloneImg}
+        projectImg={netflixCloneImg2}
         projectTitle="Netflix Clone"
         projectDescription={`In this project, I tried to clone the Netflix website.
       It includes Github and Google OAuth using NextAuth and also Email for the user 

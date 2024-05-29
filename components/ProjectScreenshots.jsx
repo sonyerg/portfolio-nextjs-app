@@ -10,7 +10,7 @@ import Image from "next/image";
 export default function ProjectScreenshots({ screenShots }) {
   return (
     <>
-      <div className="flex justify-center">
+      <div className="flex justify-center mt-20">
         <h2 className="py-2">Screenshots</h2>
       </div>
 
@@ -22,7 +22,7 @@ export default function ProjectScreenshots({ screenShots }) {
                 <Image
                   src={screenShot.image}
                   alt={screenShot.alt}
-                  className="object-cover "
+                  className="object-cover"
                 />
               </CarouselItem>
             ))}

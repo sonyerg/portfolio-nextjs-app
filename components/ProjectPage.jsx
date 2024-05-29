@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import { RiRadioButtonFill } from "react-icons/ri";
 
 const ProjectPage = ({
@@ -56,9 +55,6 @@ const ProjectPage = ({
             ))}
           </div>
         </div>
-        {/* <Link href="/#projects">
-          <p className="underline cursor-pointer">Back</p>
-        </Link> */}
       </div>
     </div>
   );
