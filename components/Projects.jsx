@@ -6,8 +6,9 @@ import calorieCounterImg from "../public/assets/projects/calorieCounterImg.png";
 import investmentCalculatorImg from "../public/assets/projects/investmentCalculatorImg.png";
 import reactTicTacToeImg from "../public/assets/projects/reactTicTacToeImg.png";
 import projectManagementImg from "../public/assets/projects/projectManagementImg.png";
-import foodOrderAppImg from "../public/assets/projects/foodOrderAppImg.png";
 import netflixCloneImg from "../public/assets/projects/netflixCloneImg.png";
+import ecommerceDashboard from "../public/assets/projects/ecommerceDashboardImg.png";
+import ecommerceStore from "../public/assets/projects/ecommerceStoreImg.png";
 
 const Projects = () => {
   return (
@@ -19,10 +20,28 @@ const Projects = () => {
         <h2 className="py-4">What I've built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
+            title="E-Commerce Admin Dashboard"
+            projectPlatform="Next JS"
+            backgroundImg={ecommerceDashboard}
+            projectUrl="/ecommerceDashboard"
+          />
+          <ProjectItem
+            title="E-Commerce Store"
+            projectPlatform="Next JS"
+            backgroundImg={ecommerceStore}
+            projectUrl="/ecommerceStore"
+          />
+          <ProjectItem
             title="Netflix Clone"
             projectPlatform="Next JS"
             backgroundImg={netflixCloneImg}
             projectUrl="/netflixClone"
+          />
+          <ProjectItem
+            title="Project Management App"
+            projectPlatform="Vite React"
+            backgroundImg={projectManagementImg}
+            projectUrl="/projectManagement"
           />
           <ProjectItem
             title="JS RPG"
@@ -47,18 +66,6 @@ const Projects = () => {
             projectPlatform="Vite React"
             backgroundImg={investmentCalculatorImg}
             projectUrl="/investmentCalculator"
-          />
-          <ProjectItem
-            title="Project Management App"
-            projectPlatform="Vite React"
-            backgroundImg={projectManagementImg}
-            projectUrl="/projectManagement"
-          />
-          <ProjectItem
-            title="Food Order App"
-            projectPlatform="Vite React"
-            backgroundImg={foodOrderAppImg}
-            projectUrl="/foodOrderApp"
           />
           <ProjectItem
             title="Nexus"

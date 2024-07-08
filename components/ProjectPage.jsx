@@ -33,7 +33,7 @@ const ProjectPage = ({
             Project
           </p>
           <h2 className="py-4">Overview</h2>
-          <p>{projectDescription}</p>
+          <p className="my-4">{projectDescription}</p>
           <a href={projectDemoLink} target="_blank">
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </a>
