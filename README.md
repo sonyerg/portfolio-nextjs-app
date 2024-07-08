@@ -1,13 +1,6 @@
-# My Portfolio Nextjs Web App
+# My Portfolio Web App
 
-Building my own portfolio web app in Next.js.
-
-## Objectives
-
-1. Learn how to build a web app in Nextjs.
-2. Learn how to use Tailwind CSS.
-3. Explore Next.js Plugins and Modules.
-4. Release the web app.
+A portfolio web app made in Next.js.
 
 ## Features
 
