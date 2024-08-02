@@ -9,6 +9,7 @@ import projectManagementImg from "../public/assets/projects/projectManagementImg
 import netflixCloneImg from "../public/assets/projects/netflixCloneImg.png";
 import ecommerceDashboard from "../public/assets/projects/ecommerceDashboardImg.png";
 import ecommerceStore from "../public/assets/projects/ecommerceStoreImg.png";
+import jsCalculatorImg from "../public/assets/projects/jsCalculatorImg.png";
 
 const Projects = () => {
   return (
@@ -42,6 +43,12 @@ const Projects = () => {
             projectPlatform="Vite React"
             backgroundImg={projectManagementImg}
             projectUrl="/projectManagement"
+          />
+          <ProjectItem
+            title="JS Calculator"
+            projectPlatform="React"
+            backgroundImg={jsCalculatorImg}
+            projectUrl="/jsCalculator"
           />
           <ProjectItem
             title="JS RPG"
