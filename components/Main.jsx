@@ -15,7 +15,7 @@ function Main() {
           <h1 className="py-4 m-auto">
             Kia Ora, I'm <span className="text-[#f54444]">Erickson</span>.
           </h1>
-          <h1 className="pb-4 ">A Front-End Developer</h1>
+          <h1 className="pb-4 ">A Web Developer</h1>
           <p className="uppercase text-sm tracking-widest text-gray-100">
             Let's turn your digital vision into an experience
           </p>
