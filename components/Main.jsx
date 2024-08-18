@@ -54,8 +54,8 @@ function Main() {
       <SparklesCore
         background="transparent"
         minSize={0.2}
-        maxSize={1.5}
-        particleDensity={25}
+        maxSize={2}
+        particleDensity={12}
         className="m-auto absolute inset-0 w-full h-[35rem] z-0 opacity-0 "
         particleColor="#FFFFFF"
       />
