@@ -30,7 +30,7 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className="py-2">Erickson Guinto</h2>
-                <p>Front-End Developer</p>
+                <p>Software Developer</p>
                 <p>
                   I am available for freelance or full-time positions. Contact
                   me and let's talk.
