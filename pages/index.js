@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Erickson | Front-End Developer</title>
+        <title>Erickson | Software Developer</title>
         <link rel="icon" href="/assets/navLogo.png" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://ericksonguinto.vercel.app/" />
