@@ -10,6 +10,7 @@ import netflixCloneImg from "../public/assets/projects/netflixCloneImg.png";
 import ecommerceDashboard from "../public/assets/projects/ecommerceDashboardImg.png";
 import ecommerceStore from "../public/assets/projects/ecommerceStoreImg.png";
 import jsCalculatorImg from "../public/assets/projects/jsCalculatorImg.png";
+import { BsLink } from "react-icons/bs";
 
 const Projects = () => {
   return (
@@ -82,10 +83,19 @@ const Projects = () => {
           />
         </div>
         <div
+          onClick={() => {
+            window.location.assign("https://github.com/sonyerg");
+          }}
           className="mt-4 bg-[#1F2937] relative flex items-center justify-center h-auto w-full shadow-xl shadow-black 
-             rounded-xl p-4 group hover:bg-gradient-to-r from-[#f54444] to-[#ec9292] "
+             rounded-xl p-4 group hover:bg-gradient-to-r from-[#f54444] to-[#ec9292] cursor-pointer"
         >
-          <h2 className="p-12 text-center">Cooking more projects..</h2>
+          <div className=" flex flex-row items-center space-x-2">
+            <h2 className="py-12 text-center">
+              Visit my Github profile for more
+            </h2>
+            <BsLink size={50} />
+          </div>
+
           <div className="text-white hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"></div>
         </div>
       </div>
