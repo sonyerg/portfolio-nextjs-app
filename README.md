@@ -1,6 +1,6 @@
-# My Portfolio Web App
+# My Portfolio Website
 
-A portfolio web app made in Next.js.
+A website to showcase some of my projects!🚀
 
 ## Features
 
@@ -11,7 +11,6 @@ A portfolio web app made in Next.js.
 
 - Next.js
 - Tailwind CSS
-- React
 
 ## Installation and Setup
 Feel free to clone my repo:
